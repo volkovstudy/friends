@@ -6,27 +6,28 @@
 using namespace std;
 
 class Contacts {
-public:
-    string Email;
-    string Telegram_ID;
-    string PhoneNumber;
+private:
+    string email;
+    string telegramId;
+    string phoneNumber;
 
+public:
     Contacts(string InputEmail, string InputTelegram_ID, string InputPhoneNumber)
-            :Email(InputEmail), Telegram_ID(InputTelegram_ID), PhoneNumber(InputPhoneNumber) {}
+            : email(InputEmail), telegramId(InputTelegram_ID), phoneNumber(InputPhoneNumber) {}
 
     string GetEmail()
     {
-        return Email;
+        return email;
     }
 
     string GetTelegram_ID()
     {
-        return Telegram_ID;
+        return telegramId;
     }
 
     string GetPhoneNumber()
     {
-        return PhoneNumber;
+        return phoneNumber;
     }
 
 };
