@@ -7,13 +7,12 @@ using namespace std;
 
 class FullName {
 private:
-    string Name;
-    string Age;
-    string Patronymic;
+    string name;
+    string surname;
+    string patronymic;
 
 public:
-    FullName(string InputName, string InputAge, string InputPatronymic)
-            : Name(InputName), Age(InputAge), Patronymic(InputPatronymic) {}
+    FullName(string name, string age, string patronymic);
 
     string GetName() {
         return Name;
