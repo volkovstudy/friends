@@ -12,8 +12,7 @@ private:
     string phoneNumber;
 
 public:
-    Contacts(string InputEmail, string InputTelegram_ID, string InputPhoneNumber)
-            : email(InputEmail), telegramId(InputTelegram_ID), phoneNumber(InputPhoneNumber) {}
+    Contacts(const string &email, const string &telegramId, const string &phoneNumber);
 
     string GetEmail()
     {
