@@ -14,17 +14,11 @@ private:
 public:
     FullName(string name, string age, string patronymic);
 
-    string GetName() {
-        return Name;
-    }
+    string getName();
 
-    string GetAge() {
-        return Age;
-    }
+    string getSurname();
 
-    string GetPatronymic() {
-        return Patronymic;
-    }
+    string getPatronymic();
 };
 
 
