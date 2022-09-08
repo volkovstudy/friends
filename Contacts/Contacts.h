@@ -12,23 +12,13 @@ private:
     string phoneNumber;
 
 public:
-    Contacts(const string &email, const string &telegramId, const string &phoneNumber);
+    Contacts(string email, string telegramId, string phoneNumber);
 
-    string GetEmail()
-    {
-        return email;
-    }
+    string getEmail();
 
-    string GetTelegram_ID()
-    {
-        return telegramId;
-    }
+    string getTelegramId();
 
-    string GetPhoneNumber()
-    {
-        return phoneNumber;
-    }
-
+    string getPhoneNumber();
 };
 
 #endif //FRIENDS_CONTACTS_H
