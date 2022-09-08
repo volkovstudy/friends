@@ -9,33 +9,16 @@
 
 using namespace std;
 
-class Friend : protected Contacts, protected Hobbies {
+class Friend {
 private:
     FullName fullName;
-    string BirthDate;
+    string birthDate;
 
     Contacts contacts;
     vector<Hobbies> hobbies;
 
 public:
-    Friend(string InputName, string InputSurname, string InputBirthdate, string InputPatronymic)
-            :Name(InputName), Surname(InputSurname), BirthDate(InputBirthdate), Patronymic(InputPatronymic) {}
-
-    string GetName()
-    {
-        return Name;
-    }
-
-    string GetSurname()
-    {
-        return Surname;
-    }
-
-    string GetBirthDate()
-    {
-        return BirthDate;
-    }
-
+    Friend(const FullName &fullName, const string &birthDate, const Contacts &contacts, const vector<Hobbies> &hobbies);
 };
 
 #endif //FRIENDS_FRIEND_H
