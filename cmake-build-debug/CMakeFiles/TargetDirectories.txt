@@ -1,0 +1,3 @@
+/home/volkovd/Documents/Development/C++/ADT/Friends/cmake-build-debug/CMakeFiles/Friends.dir
+/home/volkovd/Documents/Development/C++/ADT/Friends/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/volkovd/Documents/Development/C++/ADT/Friends/cmake-build-debug/CMakeFiles/rebuild_cache.dir
