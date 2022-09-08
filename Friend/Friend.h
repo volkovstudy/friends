@@ -18,7 +18,7 @@ private:
     vector<Hobbies> hobbies;
 
 public:
-    Friend(const FullName &fullName, const string &birthDate, const Contacts &contacts, const vector<Hobbies> &hobbies);
+    Friend(FullName fullName, string birthDate, Contacts contacts, vector<Hobbies> hobbies);
 };
 
 #endif //FRIENDS_FRIEND_H
