@@ -4,4 +4,4 @@ project(Friends)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Friends
-        main.cpp)
+        main.cpp FullName/FullName.cpp FullName/FullName.h)
