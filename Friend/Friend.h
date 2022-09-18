@@ -19,6 +19,11 @@ private:
 
 public:
     Friend(FullName fullName, string birthDate, Contacts contacts, vector<Hobbies> hobbies);
+
+    FullName getFullName();
+    string getBirthDate();
+    Contacts getContacts();
+    vector<Hobbies> getHobbies();
 };
 
 #endif //FRIENDS_FRIEND_H
