@@ -29,5 +29,11 @@ int main() {
     printVector(nameResults);
     cout << endl;
 
+    cout << "Finding by surname \"Petrov\"..." << endl;
+    auto surnameResults = findBySurname("Petrov");
+    cout << "Results:" << endl;
+    printVector(surnameResults);
+    cout << endl;
+
     return 0;
 }
