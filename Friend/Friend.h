@@ -25,4 +25,4 @@ public:
     vector<Hobbies*> getHobbies();
 };
 
-#endif //FRIENDS_FRIEND_H
+#endif

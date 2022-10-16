@@ -22,4 +22,4 @@ public:
 };
 
 
-#endif //FRIENDS_FULLNAME_H
+#endif

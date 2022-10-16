@@ -21,4 +21,4 @@ public:
     string getPhoneNumber();
 };
 
-#endif //FRIENDS_CONTACTS_H
+#endif
