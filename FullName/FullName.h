@@ -15,9 +15,7 @@ public:
     FullName(string name, string surname, string patronymic);
 
     string getName();
-
     string getSurname();
-
     string getPatronymic();
 };
 
