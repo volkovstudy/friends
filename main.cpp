@@ -23,6 +23,9 @@ int main() {
     database.push_back(petya);
     database.push_back(vasya);
 
+    printVector(database);
+
+
     cout << "Finding by name \"Petr\"..." << endl;
     auto nameResults = findByName("Petr");
     cout << "Results:" << endl;
