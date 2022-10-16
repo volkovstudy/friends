@@ -10,7 +10,6 @@ private:
     string name;
     string surname;
     string patronymic;
-
 public:
     FullName(string name, string surname, string patronymic);
 
