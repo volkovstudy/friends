@@ -12,7 +12,7 @@ private:
     string patronymic;
 
 public:
-    FullName(string name, string age, string patronymic);
+    FullName(string name, string surname, string patronymic);
 
     string getName();
 
