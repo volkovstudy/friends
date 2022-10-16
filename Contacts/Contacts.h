@@ -10,7 +10,6 @@ private:
     string email;
     string telegramId;
     string phoneNumber;
-
 public:
     Contacts(string email, string telegramId, string phoneNumber);
 
