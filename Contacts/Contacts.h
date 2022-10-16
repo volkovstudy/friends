@@ -15,9 +15,7 @@ public:
     Contacts(string email, string telegramId, string phoneNumber);
 
     string getEmail();
-
     string getTelegramId();
-
     string getPhoneNumber();
 };
 
