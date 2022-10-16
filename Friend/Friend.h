@@ -23,6 +23,11 @@ public:
     string getBirthDate();
     Contacts* getContacts();
     vector<Hobbies*> getHobbies();
+
+    void setFullName(FullName *fullName);
+    void setBirthDate(string birthDate);
+    void setContacts(Contacts* contacts);
+    void setHobbies(vector<Hobbies*> hobbies);
 };
 
 #endif

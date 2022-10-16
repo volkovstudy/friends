@@ -23,3 +23,19 @@ Contacts* Friend::getContacts() {
 vector<Hobbies*> Friend::getHobbies() {
     return Friend::hobbies;
 }
+
+void Friend::setFullName(FullName *fullName) {
+    Friend::fullName = fullName;
+}
+
+void Friend::setBirthDate(string birthDate) {
+    Friend::birthDate = birthDate;
+}
+
+void Friend::setContacts(Contacts *contacts) {
+    Friend::contacts = contacts;
+}
+
+void Friend::setHobbies(vector<Hobbies*> hobbies) {
+    Friend::hobbies = hobbies;
+}
