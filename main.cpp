@@ -5,6 +5,8 @@
 
 using namespace std;
 
+vector<Friend*> database;
+
 vector<Friend*> findByName(string name);
 vector<Friend*> findBySurname(string surname);
 vector<Friend*> findByPatronymic(string patronymic);
