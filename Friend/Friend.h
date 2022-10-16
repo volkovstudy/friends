@@ -11,19 +11,17 @@ using namespace std;
 
 class Friend {
 private:
-    FullName fullName;
+    FullName* fullName;
     string birthDate;
-
-    Contacts contacts;
-    vector<Hobbies> hobbies;
-
+    Contacts* contacts;
+    vector<Hobbies*> hobbies;
 public:
-    Friend(FullName fullName, string birthDate, Contacts contacts, vector<Hobbies> hobbies);
+    Friend(FullName* fullName, string birthDate, Contacts* contacts, vector<Hobbies*> hobbies);
 
-    FullName getFullName();
+    FullName* getFullName();
     string getBirthDate();
-    Contacts getContacts();
-    vector<Hobbies> getHobbies();
+    Contacts* getContacts();
+    vector<Hobbies*> getHobbies();
 };
 
 #endif //FRIENDS_FRIEND_H
