@@ -20,5 +20,8 @@ int main() {
     FullName* vasyaFullName = new FullName("Vasiliy", "Petrov", "Ivanovich");
     Friend* vasya = new Friend(vasyaFullName, "01.01.1970");
 
+    database.push_back(petya);
+    database.push_back(vasya);
+
     return 0;
 }
