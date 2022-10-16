@@ -13,17 +13,10 @@ vector<Friend*> findByPatronymic(string patronymic);
 
 void printVector(vector<Friend*> source);
 
+void initializeDatabase();
+
 int main() {
-    FullName* petyaFullName = new FullName("Petr", "Ivanov", "Ivanovich");
-    Friend* petya = new Friend(petyaFullName, "16.10.2000");
-
-    FullName* vasyaFullName = new FullName("Vasiliy", "Petrov", "Ivanovich");
-    Friend* vasya = new Friend(vasyaFullName, "01.01.1970");
-
-    database.push_back(petya);
-    database.push_back(vasya);
-
-    printVector(database);
+    initializeDatabase();
 
 
     cout << "Finding by name \"Petr\"..." << endl;
@@ -45,4 +38,17 @@ int main() {
     cout << endl;
 
     return 0;
+}
+
+void initializeDatabase() {
+    FullName* petyaFullName = new FullName("Petr", "Ivanov", "Ivanovich");
+    Friend* petya = new Friend(petyaFullName, "16.10.2000");
+
+    FullName* vasyaFullName = new FullName("Vasiliy", "Petrov", "Ivanovich");
+    Friend* vasya = new Friend(vasyaFullName, "01.01.1970");
+
+    database.push_back(petya);
+    database.push_back(vasya);
+
+    printVector(database);
 }
