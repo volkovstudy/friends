@@ -17,6 +17,10 @@ public:
     string getEmail();
     string getTelegramId();
     string getPhoneNumber();
+
+    void setEmail(string email);
+    void setTelegramId(string telegramId);
+    void setPhoneNumber(string phoneNumber);
 };
 
 #endif

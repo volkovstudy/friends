@@ -14,4 +14,16 @@ string Contacts::getTelegramId() {
 
 string Contacts::getPhoneNumber() {
     return phoneNumber;
+}
+
+void Contacts::setEmail(string email) {
+    Contacts::email = email;
+}
+
+void Contacts::setTelegramId(string telegramId) {
+    Contacts::telegramId = telegramId;
+}
+
+void Contacts::setPhoneNumber(string phoneNumber) {
+    Contacts::phoneNumber = phoneNumber;
 };
