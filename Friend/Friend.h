@@ -16,6 +16,7 @@ private:
     Contacts* contacts;
     vector<Hobbies*> hobbies;
 public:
+    Friend(FullName* fullName, string birthDate);
     Friend(FullName* fullName, string birthDate, Contacts* contacts, vector<Hobbies*> hobbies);
 
     FullName* getFullName();

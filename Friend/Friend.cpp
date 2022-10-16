@@ -6,6 +6,8 @@ Friend::Friend(FullName* fullName, string birthDate, Contacts* contacts,vector<H
                                           contacts(contacts),
                                           hobbies(hobbies) {}
 
+Friend::Friend(FullName* fullName, string birthDate) : fullName(fullName), birthDate(birthDate) {}
+
 FullName* Friend::getFullName() {
     return Friend::fullName;
 }
