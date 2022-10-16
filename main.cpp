@@ -1,8 +1,15 @@
 ﻿#include <iostream>
+#include <vector>
 #include "FullName/FullName.h"
 #include "Friend/Friend.h"
 
 using namespace std;
+
+vector<Friend*> findByName(string name);
+vector<Friend*> findBySurname(string surname);
+vector<Friend*> findByPatronymic(string patronymic);
+
+void printVector(vector<Friend*> source);
 
 int main() {
     FullName* petyaFullName = new FullName("Petr", "Ivanov", "Ivanovich");
