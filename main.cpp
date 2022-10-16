@@ -35,5 +35,11 @@ int main() {
     printVector(surnameResults);
     cout << endl;
 
+    cout << "Finding by patronymic \"Ivanovich\"..." << endl;
+    auto patronymicResults = findByPatronymic("Ivanovich");
+    cout << "Results:" << endl;
+    printVector(patronymicResults);
+    cout << endl;
+
     return 0;
 }
